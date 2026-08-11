@@ -7,7 +7,7 @@ class Solution {
             for (int bank : customer) {
                 currentWealth += bank;
             }
-            maxWealth = Math.max(maxWealth, currentWealth);
+           maxWealth = Math.max(maxWealth, currentWealth);
         }
 
         return maxWealth;
