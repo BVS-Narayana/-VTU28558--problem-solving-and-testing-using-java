@@ -16,12 +16,10 @@ class Solution {
 
         int total = 0;
 
-        // Days in previous years
         for (int y = 1971; y < year; y++) {
             total += isLeapYear(y) ? 366 : 365;
         }
 
-        // Days in previous months
         for (int m = 1; m < month; m++) {
             total += daysInMonth[m - 1];
 
@@ -30,7 +28,6 @@ class Solution {
             }
         }
 
-        // Days in current month
         total += day;
 
         return total;
