@@ -19,7 +19,6 @@ class Checker implements Comparator<Player> {
     }
 }
 
-
 public class Solution {
 
     public static void main(String[] args) {
